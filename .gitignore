@@ -1,0 +1,13 @@
+# installed packages (npm install recreates them)
+node_modules/
+
+# secrets: NEVER upload these
+.env
+.env.*
+!.env.example
+
+# build output and tool caches
+dist/
+.quasar/
+.DS_Store
+*.log
